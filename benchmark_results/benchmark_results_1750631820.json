@@ -1,0 +1,389 @@
+[
+  {
+    "operation": "push",
+    "data_structure": "Stack",
+    "input_size": 100,
+    "execution_time": 6.489999941550195e-05,
+    "memory_usage": 2063,
+    "operations_per_second": 1540832.0631835645,
+    "complexity_class": "O(1) amortized"
+  },
+  {
+    "operation": "pop",
+    "data_structure": "Stack",
+    "input_size": 100,
+    "execution_time": 0.00011649998486973345,
+    "memory_usage": 2047,
+    "operations_per_second": 858369.2101918879,
+    "complexity_class": "O(1)"
+  },
+  {
+    "operation": "push",
+    "data_structure": "Stack",
+    "input_size": 500,
+    "execution_time": 0.000679299992043525,
+    "memory_usage": 12383,
+    "operations_per_second": 736051.8266691859,
+    "complexity_class": "O(1) amortized"
+  },
+  {
+    "operation": "pop",
+    "data_structure": "Stack",
+    "input_size": 500,
+    "execution_time": 0.0009777000232134014,
+    "memory_usage": 12407,
+    "operations_per_second": 511404.3041102246,
+    "complexity_class": "O(1)"
+  },
+  {
+    "operation": "push",
+    "data_structure": "Stack",
+    "input_size": 1000,
+    "execution_time": 0.0013184999988880008,
+    "memory_usage": 32439,
+    "operations_per_second": 758437.6191455305,
+    "complexity_class": "O(1) amortized"
+  },
+  {
+    "operation": "pop",
+    "data_structure": "Stack",
+    "input_size": 1000,
+    "execution_time": 0.0027623999922070652,
+    "memory_usage": 32471,
+    "operations_per_second": 362004.05546665,
+    "complexity_class": "O(1)"
+  },
+  {
+    "operation": "push",
+    "data_structure": "Stack",
+    "input_size": 2000,
+    "execution_time": 0.003702199988765642,
+    "memory_usage": 72599,
+    "operations_per_second": 540219.3306868935,
+    "complexity_class": "O(1) amortized"
+  },
+  {
+    "operation": "pop",
+    "data_structure": "Stack",
+    "input_size": 2000,
+    "execution_time": 0.007695200009038672,
+    "memory_usage": 72623,
+    "operations_per_second": 259902.27643866677,
+    "complexity_class": "O(1)"
+  },
+  {
+    "operation": "push",
+    "data_structure": "Stack",
+    "input_size": 5000,
+    "execution_time": 0.012662399996770546,
+    "memory_usage": 221663,
+    "operations_per_second": 394869.85099785303,
+    "complexity_class": "O(1) amortized"
+  },
+  {
+    "operation": "pop",
+    "data_structure": "Stack",
+    "input_size": 5000,
+    "execution_time": 0.026371999992989004,
+    "memory_usage": 221647,
+    "operations_per_second": 189595.02507694715,
+    "complexity_class": "O(1)"
+  },
+  {
+    "operation": "enqueue",
+    "data_structure": "Queue",
+    "input_size": 100,
+    "execution_time": 5.85000088904053e-05,
+    "memory_usage": 2063,
+    "operations_per_second": 1709401.4496192872,
+    "complexity_class": "O(1) amortized"
+  },
+  {
+    "operation": "dequeue",
+    "data_structure": "Queue",
+    "input_size": 100,
+    "execution_time": 0.00010429997928440571,
+    "memory_usage": 2047,
+    "operations_per_second": 958772.9612804572,
+    "complexity_class": "O(1)"
+  },
+  {
+    "operation": "enqueue",
+    "data_structure": "Queue",
+    "input_size": 500,
+    "execution_time": 0.000910000002477318,
+    "memory_usage": 12447,
+    "operations_per_second": 549450.5479547651,
+    "complexity_class": "O(1) amortized"
+  },
+  {
+    "operation": "dequeue",
+    "data_structure": "Queue",
+    "input_size": 500,
+    "execution_time": 0.00190379997366108,
+    "memory_usage": 12455,
+    "operations_per_second": 262632.6331113877,
+    "complexity_class": "O(1)"
+  },
+  {
+    "operation": "enqueue",
+    "data_structure": "Queue",
+    "input_size": 1000,
+    "execution_time": 0.0031811999797355384,
+    "memory_usage": 32503,
+    "operations_per_second": 314346.78937824356,
+    "complexity_class": "O(1) amortized"
+  },
+  {
+    "operation": "dequeue",
+    "data_structure": "Queue",
+    "input_size": 1000,
+    "execution_time": 0.0078407000110019,
+    "memory_usage": 32551,
+    "operations_per_second": 127539.63276197556,
+    "complexity_class": "O(1)"
+  },
+  {
+    "operation": "enqueue",
+    "data_structure": "Queue",
+    "input_size": 2000,
+    "execution_time": 0.008768699975917116,
+    "memory_usage": 72663,
+    "operations_per_second": 228083.9811480516,
+    "complexity_class": "O(1) amortized"
+  },
+  {
+    "operation": "dequeue",
+    "data_structure": "Queue",
+    "input_size": 2000,
+    "execution_time": 0.015696900023613125,
+    "memory_usage": 72703,
+    "operations_per_second": 127413.69295793211,
+    "complexity_class": "O(1)"
+  },
+  {
+    "operation": "enqueue",
+    "data_structure": "Queue",
+    "input_size": 5000,
+    "execution_time": 0.03299039998091757,
+    "memory_usage": 221743,
+    "operations_per_second": 151559.24156397372,
+    "complexity_class": "O(1) amortized"
+  },
+  {
+    "operation": "dequeue",
+    "data_structure": "Queue",
+    "input_size": 5000,
+    "execution_time": 0.05644590000156313,
+    "memory_usage": 221727,
+    "operations_per_second": 88580.39290473776,
+    "complexity_class": "O(1)"
+  },
+  {
+    "operation": "append",
+    "data_structure": "LinkedList",
+    "input_size": 100,
+    "execution_time": 9.339998359791934e-05,
+    "memory_usage": 10047,
+    "operations_per_second": 1070663.9995836967,
+    "complexity_class": "O(1)"
+  },
+  {
+    "operation": "random_access",
+    "data_structure": "LinkedList",
+    "input_size": 100,
+    "execution_time": 0.00040630000876262784,
+    "memory_usage": 10111,
+    "operations_per_second": 246123.54871600034,
+    "complexity_class": "O(n)"
+  },
+  {
+    "operation": "append",
+    "data_structure": "LinkedList",
+    "input_size": 500,
+    "execution_time": 0.0010340999870095402,
+    "memory_usage": 56255,
+    "operations_per_second": 483512.2389334168,
+    "complexity_class": "O(1)"
+  },
+  {
+    "operation": "random_access",
+    "data_structure": "LinkedList",
+    "input_size": 500,
+    "execution_time": 0.0014980999985709786,
+    "memory_usage": 56427,
+    "operations_per_second": 66751.2182734056,
+    "complexity_class": "O(n)"
+  },
+  {
+    "operation": "append",
+    "data_structure": "LinkedList",
+    "input_size": 1000,
+    "execution_time": 0.004151100001763552,
+    "memory_usage": 120215,
+    "operations_per_second": 240900.00230665613,
+    "complexity_class": "O(1)"
+  },
+  {
+    "operation": "random_access",
+    "data_structure": "LinkedList",
+    "input_size": 1000,
+    "execution_time": 0.010350999975344166,
+    "memory_usage": 120395,
+    "operations_per_second": 9660.902351289498,
+    "complexity_class": "O(n)"
+  },
+  {
+    "operation": "append",
+    "data_structure": "LinkedList",
+    "input_size": 2000,
+    "execution_time": 0.00440780000644736,
+    "memory_usage": 248183,
+    "operations_per_second": 453741.0946673097,
+    "complexity_class": "O(1)"
+  },
+  {
+    "operation": "append",
+    "data_structure": "LinkedList",
+    "input_size": 5000,
+    "execution_time": 0.023884099995484576,
+    "memory_usage": 632159,
+    "operations_per_second": 209344.29184877296,
+    "complexity_class": "O(1)"
+  },
+  {
+    "operation": "insert",
+    "data_structure": "BinaryHeap",
+    "input_size": 100,
+    "execution_time": 0.0005018000083509833,
+    "memory_usage": 4291,
+    "operations_per_second": 199282.57938580014,
+    "complexity_class": "O(log n)"
+  },
+  {
+    "operation": "extract_min",
+    "data_structure": "BinaryHeap",
+    "input_size": 100,
+    "execution_time": 0.0008405999979004264,
+    "memory_usage": 4592,
+    "operations_per_second": 118962.646026375,
+    "complexity_class": "O(log n)"
+  },
+  {
+    "operation": "heapify",
+    "data_structure": "BinaryHeap",
+    "input_size": 100,
+    "execution_time": 0.0005939999828115106,
+    "memory_usage": 4608,
+    "operations_per_second": 168350.1732216922,
+    "complexity_class": "O(n)"
+  },
+  {
+    "operation": "insert",
+    "data_structure": "BinaryHeap",
+    "input_size": 500,
+    "execution_time": 0.003196600009687245,
+    "memory_usage": 16843,
+    "operations_per_second": 156416.19173020023,
+    "complexity_class": "O(log n)"
+  },
+  {
+    "operation": "extract_min",
+    "data_structure": "BinaryHeap",
+    "input_size": 500,
+    "execution_time": 0.007811799994669855,
+    "memory_usage": 20792,
+    "operations_per_second": 64005.73495752066,
+    "complexity_class": "O(log n)"
+  },
+  {
+    "operation": "heapify",
+    "data_structure": "BinaryHeap",
+    "input_size": 500,
+    "execution_time": 0.00384920000215061,
+    "memory_usage": 20872,
+    "operations_per_second": 129897.1214072124,
+    "complexity_class": "O(n)"
+  },
+  {
+    "operation": "insert",
+    "data_structure": "BinaryHeap",
+    "input_size": 1000,
+    "execution_time": 0.009794299985514954,
+    "memory_usage": 33083,
+    "operations_per_second": 102100.20128839489,
+    "complexity_class": "O(log n)"
+  },
+  {
+    "operation": "extract_min",
+    "data_structure": "BinaryHeap",
+    "input_size": 1000,
+    "execution_time": 0.05683469999348745,
+    "memory_usage": 41128,
+    "operations_per_second": 17594.884817102713,
+    "complexity_class": "O(log n)"
+  },
+  {
+    "operation": "heapify",
+    "data_structure": "BinaryHeap",
+    "input_size": 1000,
+    "execution_time": 0.010414799995487556,
+    "memory_usage": 41296,
+    "operations_per_second": 96017.20632496757,
+    "complexity_class": "O(n)"
+  },
+  {
+    "operation": "insert",
+    "data_structure": "BinaryHeap",
+    "input_size": 2000,
+    "execution_time": 0.0159259999927599,
+    "memory_usage": 66979,
+    "operations_per_second": 125580.81130913085,
+    "complexity_class": "O(log n)"
+  },
+  {
+    "operation": "extract_min",
+    "data_structure": "BinaryHeap",
+    "input_size": 2000,
+    "execution_time": 0.048646200011717156,
+    "memory_usage": 80496,
+    "operations_per_second": 41113.18046462561,
+    "complexity_class": "O(log n)"
+  },
+  {
+    "operation": "heapify",
+    "data_structure": "BinaryHeap",
+    "input_size": 2000,
+    "execution_time": 0.01825210000970401,
+    "memory_usage": 79896,
+    "operations_per_second": 109576.43224268273,
+    "complexity_class": "O(n)"
+  },
+  {
+    "operation": "insert",
+    "data_structure": "BinaryHeap",
+    "input_size": 5000,
+    "execution_time": 0.04582860000664368,
+    "memory_usage": 209535,
+    "operations_per_second": 109102.1763543979,
+    "complexity_class": "O(log n)"
+  },
+  {
+    "operation": "extract_min",
+    "data_structure": "BinaryHeap",
+    "input_size": 5000,
+    "execution_time": 0.22771649999776855,
+    "memory_usage": 200880,
+    "operations_per_second": 21957.12651498243,
+    "complexity_class": "O(log n)"
+  },
+  {
+    "operation": "heapify",
+    "data_structure": "BinaryHeap",
+    "input_size": 5000,
+    "execution_time": 0.061244200012879446,
+    "memory_usage": 200432,
+    "operations_per_second": 81640.38388857259,
+    "complexity_class": "O(n)"
+  }
+]

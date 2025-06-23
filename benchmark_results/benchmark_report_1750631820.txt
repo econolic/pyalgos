@@ -1,0 +1,87 @@
+PyAlgos Performance Benchmark Report
+==================================================
+Total operations benchmarked: 43
+
+Stack Performance Analysis
+------------------------------
+
+PUSH Operation:
+  Complexity: O(1) amortized
+  Input size range: 100 - 5000
+  Fastest: 0.000065s (size 100)
+  Slowest: 0.012662s (size 5000)
+  Average ops/sec: 794082
+
+POP Operation:
+  Complexity: O(1)
+  Input size range: 100 - 5000
+  Fastest: 0.000116s (size 100)
+  Slowest: 0.026372s (size 5000)
+  Average ops/sec: 436255
+
+Queue Performance Analysis
+------------------------------
+
+ENQUEUE Operation:
+  Complexity: O(1) amortized
+  Input size range: 100 - 5000
+  Fastest: 0.000059s (size 100)
+  Slowest: 0.032990s (size 5000)
+  Average ops/sec: 590568
+
+DEQUEUE Operation:
+  Complexity: O(1)
+  Input size range: 100 - 5000
+  Fastest: 0.000104s (size 100)
+  Slowest: 0.056446s (size 5000)
+  Average ops/sec: 312988
+
+LinkedList Performance Analysis
+------------------------------
+
+APPEND Operation:
+  Complexity: O(1)
+  Input size range: 100 - 5000
+  Fastest: 0.000093s (size 100)
+  Slowest: 0.023884s (size 5000)
+  Average ops/sec: 491632
+
+RANDOM_ACCESS Operation:
+  Complexity: O(n)
+  Input size range: 100 - 1000
+  Fastest: 0.000406s (size 100)
+  Slowest: 0.010351s (size 1000)
+  Average ops/sec: 107512
+
+BinaryHeap Performance Analysis
+------------------------------
+
+INSERT Operation:
+  Complexity: O(log n)
+  Input size range: 100 - 5000
+  Fastest: 0.000502s (size 100)
+  Slowest: 0.045829s (size 5000)
+  Average ops/sec: 138496
+
+EXTRACT_MIN Operation:
+  Complexity: O(log n)
+  Input size range: 100 - 5000
+  Fastest: 0.000841s (size 100)
+  Slowest: 0.227716s (size 5000)
+  Average ops/sec: 52727
+
+HEAPIFY Operation:
+  Complexity: O(n)
+  Input size range: 100 - 5000
+  Fastest: 0.000594s (size 100)
+  Slowest: 0.061244s (size 5000)
+  Average ops/sec: 117096
+
+Performance Summary
+--------------------
+Top 5 Fastest Operations:
+  1. Queue.enqueue: 1709401 ops/sec
+  2. Stack.push: 1540832 ops/sec
+  3. LinkedList.append: 1070664 ops/sec
+  4. Queue.dequeue: 958773 ops/sec
+  5. Stack.pop: 858369 ops/sec
